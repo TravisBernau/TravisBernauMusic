@@ -204,6 +204,84 @@ h1 {
   background: var(--bg-soft);
   overflow: hidden;
 }
+.project-image {
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--line);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.02);
+  filter: brightness(1.08);
+}
+
+.project-role {
+  margin-top: -4px;
+  color: var(--gold-light) !important;
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--gold-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 3px;
+}
+
+.project-link:hover {
+  color: var(--text); 
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--line);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.02);
+  filter: brightness(1.08);
+}
+
+.project-role {
+  margin-top: -4px;
+  color: var(--gold-light) !important;
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--gold-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--gold);
+  padding-bottom: 3px;
+}
+
+.project-link:hover {
+  color: var(--text);
+}
+
 .project-art { min-height: 230px; border-bottom: 1px solid var(--line); }
 .art-one { background: radial-gradient(circle at 40% 30%, #627267, transparent 24%), linear-gradient(145deg,#202d2a,#0b0e11 70%); }
 .art-two { background: radial-gradient(circle at 70% 36%, #6f5744, transparent 23%), linear-gradient(145deg,#2c241f,#0b0e11 70%); }
